@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Blocker Stats</title>
+    <style>
+      
+    body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #007bff, #00c8ff);
+    color: #333;
+    width: 300px;
+    text-align: center;
+    }
+    .popup {
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    header h2 {
+        color: #007bff;
+        margin: 0;
+        font-size: 1.4em;
+    }
+    header p {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    .btn {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    footer a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 0.9em;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="popup">
+        <header>
+            <h2>Ad Blocker</h2>
+            <p>🚫 Ads Blocked: <span id="adCount">0</span></p>
+        </header>
+        <main>
+            <button class="btn">Enable/Disable</button>
+            <button class="btn">Whitelist This Site</button>
+        </main>
+        <footer>
+            <a href="https://yourwebsite.com">Help & Info</a>
+        </footer>
+    </div>
+</body>
+</html>
